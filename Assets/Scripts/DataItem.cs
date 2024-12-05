@@ -18,10 +18,12 @@ public class DataItem : MonoBehaviour
     private SetCard _setCard;
     [SerializeField] TMP_Text _title;
     [SerializeField] Image _cover;
+    [SerializeField] GameObject _cadreItem; 
 
 
     private void Start()
     {
+        _cadreItem.SetActive(true);
         _setCard = FindObjectOfType<SetCard>();
         _cover.sprite = itemSprite;
         _title.text = title;

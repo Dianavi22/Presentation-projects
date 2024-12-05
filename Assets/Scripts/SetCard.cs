@@ -18,16 +18,23 @@ public class SetCard : MonoBehaviour
     public Image imagePlace;
 
     [SerializeField] GameObject _card;
+    [SerializeField] GameObject _bloomBlue;
+    [SerializeField] GameObject _bloomPurple;
     public string linkBuild;
 
     public void ClickItem()
     {
         _card.SetActive(true);
+        _bloomBlue.SetActive(false);
+        _bloomPurple.SetActive(true);
     }
 
     public void CloseCard()
     {
         _card.SetActive(false);
+        _bloomPurple.SetActive(false);
+        _bloomBlue.SetActive(true);
+
     }
 
     private void SetLink()
