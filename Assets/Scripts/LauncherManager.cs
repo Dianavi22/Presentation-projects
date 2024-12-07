@@ -10,7 +10,6 @@ public class LauncherManager : MonoBehaviour
     {
         if (!string.IsNullOrEmpty(pathToOtherBuild))
         {
-            print("HERE");
             Process.Start(pathToOtherBuild);
         }
     }
