@@ -6779,6 +6779,10 @@ PrefabInstance:
         \xE0 la coul\xE9e de lave qui vous poursuit. Jetez les gobelins dans le lave,
         cresez, poussez le chariot (et jetez aussi les autres joueurs)"
       objectReference: {fileID: 0}
+    - target: {fileID: 3547595373510713589, guid: 191275b3d9789ef4a8926b2758caa61d, type: 3}
+      propertyPath: linkBuildPlace
+      value: J:\BuildsJPO\DDH\Dwarves-Digging-Holes.exe
+      objectReference: {fileID: 0}
     - target: {fileID: 4148956303346277328, guid: 191275b3d9789ef4a8926b2758caa61d, type: 3}
       propertyPath: m_Sprite
       value: 
