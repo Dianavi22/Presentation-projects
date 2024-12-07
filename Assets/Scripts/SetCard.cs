@@ -37,14 +37,13 @@ public class SetCard : MonoBehaviour
 
     }
 
-    private void SetLink()
+    public void SetLink()
     {
         Application.OpenURL(linkItchPlace.text);
     }
 
     public void LaunchGame()
     {
-        _launcherManager.pathToOtherBuild = linkBuild;
-        _launcherManager.LaunchBuild();
+        _launcherManager.LaunchBuild(linkBuild);
     }
 }

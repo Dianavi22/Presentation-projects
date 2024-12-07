@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class LauncherManager : MonoBehaviour
 {
-    public string pathToOtherBuild; 
 
-    public void LaunchBuild()
+    public void LaunchBuild(string pathToOtherBuild)
     {
         if (!string.IsNullOrEmpty(pathToOtherBuild))
         {
+            print("HERE");
             Process.Start(pathToOtherBuild);
         }
     }
