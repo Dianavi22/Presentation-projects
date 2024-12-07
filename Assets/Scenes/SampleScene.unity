@@ -25872,7 +25872,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3547595373510713589, guid: 191275b3d9789ef4a8926b2758caa61d, type: 3}
       propertyPath: linkBuildPlace
-      value: J:\BuildsJPO\Slime Tower\Slime Tower.exe
+      value: J:\BuildsJPO\Slime Tower\Slime Tower_win\Slime Tower.exe
       objectReference: {fileID: 0}
     - target: {fileID: 4148956303346277328, guid: 191275b3d9789ef4a8926b2758caa61d, type: 3}
       propertyPath: m_Sprite
